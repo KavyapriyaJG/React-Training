@@ -1,0 +1,50 @@
+.detailed-page-PromoAndExplore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin:auto auto 100px;
+    width:88%;
+
+    .detailed-page-header{
+        .detailed-page-title{
+            margin: 180px 0px 0px;
+            font-size: 65px;
+            font-weight: 400;
+            color: #7A1655;
+        }
+        .detailed-page-description{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 13%;
+            padding-left: 65px;
+            height: 230px;
+            width: 880px;
+            font-size: 55px;
+            line-height: 80px;
+            color: #fff;
+            background-color: #7A1655;
+        }
+        .detailed-page-temperature{
+            font-size: 60px;
+            font-weight: 400;
+            position: absolute;
+            bottom: -2%;
+        }
+    }
+    .detailed-page-image{
+        margin-right: -103px;
+        img{
+            width: 885px;
+        }
+    }
+}
+.detailed-page-content{
+    margin:auto;
+    width:88%;
+    p{
+        text-align: justify;
+        font-size: 32px;
+    }
+}
