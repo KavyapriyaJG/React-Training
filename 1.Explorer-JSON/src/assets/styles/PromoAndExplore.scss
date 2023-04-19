@@ -1,0 +1,53 @@
+main{
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .PromoAndExplore-wrapper{
+        color: #7A1655;
+        margin-left: 140px;
+        position: relative;
+
+        .PromoAndExplore-title{
+            text-transform: uppercase;
+            font-size: 23px;
+            font-weight: 600;
+            margin-bottom: 50px;
+            color:#9d6087;
+        }
+        .PromoAndExplore-description{
+            font-size: 75px;
+            padding-right: 80px;
+            margin-bottom: 90px;
+            font-weight: 300;
+            span{
+                font-weight: 600;
+            }
+        }
+        select{
+            font-size: 18px;
+            color: #9f9f9f;
+            outline: none;
+            padding: 0px 30px;
+        }
+        .destination{
+            height: 65px;
+            width: 710px;
+            position: absolute;
+        }
+        button{
+            position: absolute;
+            bottom: -130px;
+        }
+    }
+    .PromoAndExplore-img{
+        img{
+            width: 980px;
+        }
+    }
+}

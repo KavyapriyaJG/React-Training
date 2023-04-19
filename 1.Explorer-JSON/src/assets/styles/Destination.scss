@@ -1,0 +1,50 @@
+.explorer-wrapper{
+    margin:100px auto auto;
+    width:88%;
+  
+  .explorer-header{
+    margin-left: 10px;
+    .explorer-title{
+        font-size: 45px;
+        font-weight: 500;
+        color: #7A1655;
+    }
+    h3{
+        font-size: 23px;
+        font-weight: 400;
+        margin-top: -35px;
+        color:#9d6087;
+    }
+  }
+  .explorer-content{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    .explorer-card{
+        width:31.35555%;
+        padding:0.9%;
+
+        img{
+            width:100%;
+        }
+        h2{
+            font-size:35px;
+            color: #383838;
+            font-weight: 300;
+            margin-top:18px;
+            margin-bottom:0px;
+        }
+        h3{
+            margin-top:10px;
+            font-weight: 700;
+        }
+        p{
+            height: 200px;
+            overflow: scroll;
+            font-size: 19px;
+            padding-top: 7px;
+            font-weight: 300;
+        }
+    }
+  }
+}
